@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-language: Ruby
-rvm:
--1.9.2
--1.9.3
--2.0.0
--2.1.0
-=======
 language: ruby
 rvm:
     - 1.9.3
     - 2.0.0
     - 2.1.0
->>>>>>> 1adc7ea8bbd194e4294c13dd48e814a626b16ecc
+
