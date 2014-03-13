@@ -1,0 +1,26 @@
+require "#{File.dirname(__FILE__)}/compound_interest_calculator"
+
+describe compound_interest_calculator do
+
+	before do
+		@ = .new
+
+it "should get input from user" do
+
+	end
+it "should a number" do
+	t.(is_numeric?).should_be true
+	p.(is_numeric?).should_be true
+	r.(is_numeric?).should_be true
+	n.(is_numeric?).should_be true
+	end
+
+it "should have an amount greater than or equal to zero" do
+	a.should_be >= 0
+	end
+
+it "should print " do
+	print "You'll have #{a} after #{y} years."
+
+	end
+end
