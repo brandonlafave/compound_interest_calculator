@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
 	s.email = "lafaveb@gmail.com"
 	s.homepage = "http://rubygems.org/gems/compound_interest_calculator"
 	s.licenses = ["MIT"]
-	s.files = ["lib/compound_interest_calculator.rb"]
+	s.files = ["lib/compound_interest.rb"]
 end
