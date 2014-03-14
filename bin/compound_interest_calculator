@@ -27,5 +27,5 @@ require "compound_interest_calculator"
 result = @calculator.amount_earned(principle, interest, compound, time)
 
 #Prints the final amount accumulated.
-	puts "Congratulations! You'll have $#{amount_earned} after #{time} years." 
+	puts "Congratulations! You'll have $#{result} after #{time} years." 
 
