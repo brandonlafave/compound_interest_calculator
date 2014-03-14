@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+
+require "compound_interest_calculator.rb"
+
+@calculator = CompoundInterestCalculator.new
+
+#Requests the principle amount.
+	puts "What's the initial amount you'd like to deposit?"
+	puts "Please type the amount below without commas or dollar signs."
+	principle = gets.to_f
+
+#Requests the annual interest rate.
+	puts "What will the annual interest rate be?"
+	puts "Please leave the percentage sign off (i.e. 16% would be written as 16)."
+	interest = (gets.to_f)
+
+#Requests the number of times the principle will be compounded each year.
+	puts "How many times will the deposit be compounded each year?"
+	puts "Please enter a whole number."
+	compound = gets.to_i
+
+#Requests the amount of years that compound interest will take place.
+	puts "How many years will the deposit be compounded?"
+	puts "Please enter a whole number"
+	time = gets.to_i
+
+result = @calculator.amount_earned(principle, interest, compound, time)
+
+#Prints the final amount accumulated.
+	puts "Congratulations! You'll have $#{amount_earned} after #{time} years." 
+
