@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
 	s.name = "compound_interest_calculator"
-	s.version = "0.0.3"
+	s.version = "0.0.4"
 	s.executables << 'compound_interest_calculator'
 	s.date = "2014-03-13"
 	s.summary = "A gem that calculates compound interest over time."
