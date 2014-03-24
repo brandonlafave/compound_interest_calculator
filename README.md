@@ -8,4 +8,4 @@ To install:
   
 To use:
 
-  irb >> require "compound_interest_calculator"
+  compound_interest_calculator
