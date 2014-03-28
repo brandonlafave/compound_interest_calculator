@@ -1,15 +1,18 @@
-compound_interest_calculator
-============================
-compound_interest_calculator is a gem that calculates the earned compound interest on an investment over a certain period of time.
+<h1>compound_interest_calculator</h1>
 
-To install:
+<h2>What is it?</h2>
+compound_interest_calculator is a gem that calculates the earned compound interest on an investment over a certain period of time. The current version does not support error handling, but a later version will.
 
-  gem install compound_interest_calculator
+<h2>Installation</h2>
+
+<p>To install:</p>
+
+  <p><code>gem install compound_interest_calculator</code></p>
   
-To run from the command line:
+<p>To run from the command line:</p>
 
-  compound_interest_calculator
+  <p><code>compound_interest_calculator</code></p>
   
-To add to your code:
+<p>To add to your code:</p>
 
-  require "compound_interest_calculator"
+  <p><code>require "compound_interest_calculator"</code></p>
