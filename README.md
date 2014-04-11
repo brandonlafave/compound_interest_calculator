@@ -3,8 +3,8 @@
 <h2>What is it?</h2>
 compound_interest_calculator is a gem that calculates the earned compound interest on an investment over a certain period of time. The current version does not support error handling, but a later version will.
 
-Build Status (Travis CI)
-<p>[![Build Status](https://travis-ci.org/brandonlafave/compound_interest_calculator.svg?branch=master)](https://travis-ci.org/brandonlafave/compound_interest_calculator)</p>
+<p>Build Status (Travis CI)</p>
+[![Build Status](https://travis-ci.org/brandonlafave/compound_interest_calculator.svg?branch=master)](https://travis-ci.org/brandonlafave/compound_interest_calculator)
 
 <h2>Installation</h2>
 
